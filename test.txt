@@ -1,0 +1,85 @@
+
+public class User {
+    private int userId;
+    private String username;
+    private String password;
+    private Role role;
+
+    // Getters and Setters
+}
+
+Student.java:
+```java
+public class Student {
+    private int studentId;
+    private User user;
+    private int yearOfStudy;
+    private String name;
+    private String lastName;
+
+    // Getters and Setters
+}
+
+Teacher.java:
+```java
+public class Teacher {
+    private int teacherId;
+    private User user;
+    private String name;
+    private String lastName;
+    private String title;
+
+    // Getters and Setters
+}
+
+Subject.java:
+```java
+public class Subject {
+    private int subjectId;
+    private String name;
+    private String semester;
+    private Teacher responsibleTeacher;
+
+    // Getters and Setters
+}
+
+Enrollment.java:
+```java
+public class Enrollment {
+    private int enrollmentId;
+    private Student student;
+    private Subject subject;
+
+    // Getters and Setters
+}
+
+Request.java:
+```java
+public class Request {
+    private int requestId;
+    private Student student;
+    private Subject subject;
+    private String message;
+    private String status;
+
+    // Getters and Setters
+}
+
+Grade.java:
+```java
+public class Grade {
+    private int gradeId;
+    private Enrollment enrollment;
+    private double grade;
+
+    // Getters and Setters
+}
+
+StudyProgram.java:
+```java
+public class StudyProgram {
+    private int programId;
+    private String name;
+
+    // Getters and Setters
+}

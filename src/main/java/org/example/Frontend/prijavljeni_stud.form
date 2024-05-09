@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Frontend.prijavljeni_stud">
+  <grid id="27dc6" binding="panel_prijavljeni_stud" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1316" height="742"/>
+    </constraints>
+    <properties>
+      <background color="-6831419"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="45905" layout-manager="GridLayoutManager" row-count="16" column-count="56" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="30" bottom="0" right="30"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="800" height="600"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6831419"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="38698" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="56" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Monospaced" size="20" style="1"/>
+              <text value="Spisak prijavljenih studenata&#10;&#10;"/>
+            </properties>
+          </component>
+          <vspacer id="9a604">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="29" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a403d" class="javax.swing.JButton" binding="podaciOStudentuButton" default-binding="true">
+            <constraints>
+              <grid row="14" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-12104112"/>
+              <text value="Podaci o studentu"/>
+            </properties>
+          </component>
+          <component id="e6b09" class="javax.swing.JTextField" binding="imeiprezime">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a5e57" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Predmet:"/>
+            </properties>
+          </component>
+          <component id="3dc66" class="javax.swing.JTextField" binding="predmet">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c0f2a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Ocjena:"/>
+            </properties>
+          </component>
+          <component id="eaeb9" class="javax.swing.JTextField" binding="ocjena">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="af130" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Ime i prezime:"/>
+            </properties>
+          </component>
+          <component id="a5bc0" class="javax.swing.JTextField" binding="index">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4b734" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Index:"/>
+            </properties>
+          </component>
+          <grid id="4e5b0" layout-manager="GridLayoutManager" row-count="4" column-count="27" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="48" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6831419"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4d2df" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="18" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="350" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <scrollpane id="66003">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="18" vsize-policy="7" hsize-policy="7" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="350" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f6ec7" class="javax.swing.JList" binding="list1" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="616fb" class="javax.swing.JCheckBox" binding="tekucaAkademskaGodinaCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6831419"/>
+                  <foreground color="-12104112"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="feaf5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tekuća akademska godina"/>
+                </properties>
+              </component>
+              <component id="a254" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+                <constraints>
+                  <grid row="2" column="18" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="350" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <scrollpane id="cfad1">
+                <constraints>
+                  <grid row="3" column="18" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="350" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2fc67" class="javax.swing.JList" binding="list2" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="5e400" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="18" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Naredna akademska godina"/>
+                </properties>
+              </component>
+              <component id="51b77" class="javax.swing.JCheckBox" binding="narednaAkademskaGodinaCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="1" column="18" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6831419"/>
+                  <foreground color="-12104112"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="fa9f7" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="28" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="450" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2662e" class="javax.swing.JButton" binding="sviPredmetiButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="28" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-12104112"/>
+              <text value="Svi predmeti"/>
+            </properties>
+          </component>
+          <component id="1450e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="28" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="                                     Predmet:"/>
+            </properties>
+          </component>
+          <scrollpane id="fed6b">
+            <constraints>
+              <grid row="3" column="9" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="450" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ca31b" class="javax.swing.JList" binding="list3" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="2fc19" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6831419"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a40c4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="rsz_graduation-hat.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8cdb3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6831419"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e5d47" class="javax.swing.JButton" binding="nazadButton1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-12104112"/>
+              <text value="Nazad"/>
+            </properties>
+          </component>
+          <component id="22bd8" class="javax.swing.JButton" binding="osvjezi">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15505477"/>
+              <foreground color="-1"/>
+              <text value="Osvježi"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
